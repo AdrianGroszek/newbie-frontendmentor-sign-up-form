@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/style/style.css" />
+		<title>Frontend Mentor | Intro component with sign up form</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container__left">
+				<div class="content-left">
+					<h2 class="heading">Learn to code by watching others</h2>
+					<p class="heading-description">
+						See how experienced developers solve problems in real-time. Watching
+						scripted tutorials is great, but understanding how developers think
+						is invaluable.
+					</p>
+				</div>
+			</div>
+			<div class="container__right">
+				<div class="offer-description">
+					<p class="offer-description__paragraph">
+						<span class="offer-description__paragraph-bold"
+							>Try it free 7 days</span
+						>
+						then $20/mo. thereafter
+					</p>
+				</div>
+				<form class="register-form">
+					<input
+						type="text"
+						id="first-name"
+						placeholder="First Name"
+						class="valid-input__first-name"
+					/>
+					<label
+						for="first-name"
+						class="valid-label valid-label__first-name hidden"
+						>First Name cannot be empty
+					</label>
+					<input
+						type="text"
+						id="last-name"
+						placeholder="Last Name"
+						class="valid-input__last-name"
+					/>
+					<label
+						for="last-name"
+						class="valid-label valid-label__last-name hidden"
+						>Last Name cannot be empty</label
+					>
+					<input
+						type="email"
+						id="email"
+						placeholder="Email Adress"
+						class="valid-input__email"
+					/>
+					<label for="email" class="valid-label valid-label__email hidden"
+						>Looks like this is not an email</label
+					>
+					<input
+						type="password"
+						id="password"
+						placeholder="Password"
+						class="valid-input__password"
+					/>
+					<label for="password" class="valid-label valid-label__password hidden"
+						>Password cannot be empty</label
+					>
+					<input type="submit" value="Claim your free trial" />
+					<p class="agreeing-paragraph">
+						By clicking the button, you are agreeing to our
+						<a href="#" class="agreeing-paragraph__bold">Terms and Services</a>
+					</p>
+				</form>
+			</div>
+		</div>
+		<!-- Learn to code by watching others
+
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+
+  Try it free 7 days then $20/mo. thereafter
+
+  First Name 
+  Last Name 
+  Email Address
+  Password
+
+  Claim your free trial 
+
+  By clicking the button, you are agreeing to our Terms and Services -->
+
+		<!-- <footer>
+			<p class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Adrian</a>.
+			</p>
+		</footer> -->
+	</body>
+</html>
