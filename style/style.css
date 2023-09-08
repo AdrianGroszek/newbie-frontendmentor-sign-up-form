@@ -121,16 +121,19 @@ video {
 	border: 1px solid var(--color-blue-dark);
 }
 
-.register-form input[type='submit'] {
+.register-form button {
+	padding: 1rem 2.5rem;
+	margin-top: 1.5rem;
 	background-color: var(--color-primary-green);
 	text-transform: uppercase;
 	color: #fff;
 	border: none;
+	border-radius: 0.5rem;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 	cursor: pointer;
 }
 
-.register-form input[type='submit']:hover {
+.register-form button:hover {
 	background-color: hsla(154, 59%, 51%, 0.7);
 }
 
@@ -191,7 +194,7 @@ video {
 		padding: 4.2rem 0;
 	}
 
-	.register-form input[type='submit'] {
+	.register-form button {
 		padding: 1.5rem 0;
 	}
 }
