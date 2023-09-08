@@ -69,6 +69,10 @@ video {
 	margin-bottom: 3rem;
 }
 
+.heading-description {
+	line-height: 2.7rem;
+}
+
 .container__right {
 	width: 50%;
 }
@@ -100,6 +104,7 @@ video {
 	background-color: #fff;
 	padding: 3rem 4rem;
 	border-radius: 0.8rem;
+	box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.2);
 }
 
 .register-form input {
@@ -130,6 +135,7 @@ video {
 }
 
 .register-form .agreeing-paragraph {
+	margin-top: 1rem;
 	font-size: 1.2rem;
 	text-align: center;
 	color: var(--color-grayish-blue);
@@ -151,4 +157,85 @@ video {
 
 .register-form .valid-input {
 	border: 1px solid var(--color-primary-red);
+}
+/* 1100px */
+@media only screen and (max-width: 68.75em) {
+	html {
+		font-size: 50%;
+	}
+}
+
+/* 900px */
+@media only screen and (max-width: 56.25em) {
+	.container {
+		flex-direction: column;
+	}
+
+	.container__left {
+		width: 50%;
+		padding-top: 10rem;
+		padding-bottom: 7rem;
+		text-align: center;
+	}
+
+	.heading {
+		font-weight: 600;
+	}
+
+	.container__right {
+		width: 70%;
+	}
+
+	.offer-description {
+		flex-direction: column;
+		padding: 4.2rem 0;
+	}
+
+	.register-form input[type='submit'] {
+		padding: 1.5rem 0;
+	}
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+	.container__right {
+		width: 90%;
+	}
+
+	.container__left {
+		width: 80%;
+		padding-top: 10rem;
+		padding-bottom: 7rem;
+		text-align: center;
+	}
+
+	.register-form {
+		padding: 0.8rem 2rem;
+		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.offer-description {
+		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.register-form .agreeing-paragraph {
+		margin: 1rem 6rem;
+	}
+
+	.heading {
+		margin-right: 10%;
+		margin-left: 10%;
+		font-size: 3.2rem;
+	}
+}
+
+/* 375px */
+@media only screen and (max-width: 23.45em) {
+	.heading-description {
+		margin: 0 2.5rem;
+	}
+
+	.container__right {
+		padding-bottom: 10rem;
+	}
 }
